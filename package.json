@@ -1,0 +1,29 @@
+{
+  "name": "jest-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wangxingkang/jest-study.git",
+  "author": "wangxingkang <156148958@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn workspaces foreach run test"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@types/react-test-renderer": "^17",
+    "@walrus/cli-utils": "^1.5.0",
+    "jest": "^27.4.5",
+    "jest-localstorage-mock": "^2.4.18",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

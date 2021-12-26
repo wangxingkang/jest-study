@@ -1,0 +1,1 @@
+export { useClickAway } from '@pansy/react-hooks';
